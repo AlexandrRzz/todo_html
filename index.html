@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="wrapper">
+    <div class="app">
+      <nav class="nav">
+        <ul class="nav__items">
+          <li class="nav__item nav__item-active">Day</li>
+          <li class="nav__item">Week</li>
+          <li class="nav__item">Month</li>
+          <li class="nav__item">Year</li>
+        </ul>
+      </nav>
+      <div class="date">
+        <svg
+        class="date_slide"
+        viewBox="0 0 66.91 122.88"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"	
+        >
+          <path d="M64.96,111.2c2.65,2.73,2.59,7.08-0.13,9.73c-2.73,2.65-7.08,2.59-9.73-0.14L1.97,66.01l4.93-4.8l-4.95,4.8 c-2.65-2.74-2.59-7.1,0.15-9.76c0.08-0.08,0.16-0.15,0.24-0.22L55.1,2.09c2.65-2.73,7-2.79,9.73-0.14 c2.73,2.65,2.78,7.01,0.13,9.73L16.5,61.23L64.96,111.2L64.96,111.2L64.96,111.2z"/>
+        </svg>
+        <div class="date_caption">
+          <h2 class="date__header">Thursday</h2>
+          <h3 class="date__subheader">Mar 23, 2017</h3>
+        </div>
+        <svg
+          class="date_slide"
+          viewBox="0 0 66.91 122.88"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"	
+          >
+          <path d="M1.95,111.2c-2.65,2.72-2.59,7.08,0.14,9.73c2.72,2.65,7.08,2.59,9.73-0.14L64.94,66l-4.93-4.79l4.95,4.8 c2.65-2.74,2.59-7.11-0.15-9.76c-0.08-0.08-0.16-0.15-0.24-0.22L11.81,2.09c-2.65-2.73-7-2.79-9.73-0.14 C-0.64,4.6-0.7,8.95,1.95,11.68l48.46,49.55L1.95,111.2L1.95,111.2L1.95,111.2z" />
+        </svg>
+      </div>
+      <div class="taskswrapper">
+        <div class="newtask">
+          <input class="newtask__input" type="text" placeholder="Add a task...">
+        </div>
+        <div class="tasks tasks--pinned">
+          <div class="task task--pinned">
+            <div class="task__inner">
+              <input type="checkbox" class="custom-checkbox" id="task1" name="taskstatus" value="yes">
+              <label class="task__desription" for="task1">Getting an invite for dribbble</label>
+              <svg
+              class="task__menu"
+              viewBox="0 0 122.88 29.956"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"	
+              >
+                <path d="M122.88,14.978c0,8.271-6.708,14.979-14.979,14.979s-14.976-6.708-14.976-14.979 C92.926,6.708,99.631,0,107.901,0S122.88,6.708,122.88,14.978L122.88,14.978z M29.954,14.978c0,8.271-6.708,14.979-14.979,14.979 S0,23.248,0,14.978C0,6.708,6.705,0,14.976,0S29.954,6.708,29.954,14.978L29.954,14.978z M76.417,14.978 c0,8.271-6.708,14.979-14.979,14.979c-8.27,0-14.978-6.708-14.978-14.979C46.46,6.708,53.168,0,61.438,0 C69.709,0,76.417,6.708,76.417,14.978L76.417,14.978z"/>
+              </svg>
+            </div>
+            <p class="task__memo">one of my goals in 2017</p>
+          </div>
+          <div class="task  task--pinned">
+            <div class="task__inner">
+              <input type="checkbox" class="custom-checkbox" id="task2" name="taskstatus" value="yes">
+              <label class="task__desription" for="task2">Getting an invite for dribbble</label>
+              <svg
+              class="task__menu"
+              viewBox="0 0 122.88 29.956"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"	
+              >
+                <path d="M122.88,14.978c0,8.271-6.708,14.979-14.979,14.979s-14.976-6.708-14.976-14.979 C92.926,6.708,99.631,0,107.901,0S122.88,6.708,122.88,14.978L122.88,14.978z M29.954,14.978c0,8.271-6.708,14.979-14.979,14.979 S0,23.248,0,14.978C0,6.708,6.705,0,14.976,0S29.954,6.708,29.954,14.978L29.954,14.978z M76.417,14.978 c0,8.271-6.708,14.979-14.979,14.979c-8.27,0-14.978-6.708-14.978-14.979C46.46,6.708,53.168,0,61.438,0 C69.709,0,76.417,6.708,76.417,14.978L76.417,14.978z"/>
+              </svg>
+            </div>
+            <p class="task__memo">one of my goals in 2017</p>
+          </div>
+        </div>
+        <div class="tasks">
+          <div class="task">
+            <div class="task__inner">
+              <input type="checkbox" class="custom-checkbox" id="task1" name="taskstatus" value="yes">
+              <label class="task__desription" for="task1">Getting an invite for dribbble</label>
+              <svg
+              class="task__menu"
+              viewBox="0 0 122.88 29.956"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"	
+              >
+                <path d="M122.88,14.978c0,8.271-6.708,14.979-14.979,14.979s-14.976-6.708-14.976-14.979 C92.926,6.708,99.631,0,107.901,0S122.88,6.708,122.88,14.978L122.88,14.978z M29.954,14.978c0,8.271-6.708,14.979-14.979,14.979 S0,23.248,0,14.978C0,6.708,6.705,0,14.976,0S29.954,6.708,29.954,14.978L29.954,14.978z M76.417,14.978 c0,8.271-6.708,14.979-14.979,14.979c-8.27,0-14.978-6.708-14.978-14.979C46.46,6.708,53.168,0,61.438,0 C69.709,0,76.417,6.708,76.417,14.978L76.417,14.978z"/>
+              </svg>
+            </div>
+            <p class="task__memo">one of my goals in 2017</p>
+          </div>
+          <div class="task">
+            <div class="task__inner">
+              <input type="checkbox" class="custom-checkbox" id="task2" name="taskstatus" value="yes">
+              <label class="task__desription" for="task2">Getting an invite for dribbble</label>
+              <svg
+              class="task__menu"
+              viewBox="0 0 122.88 29.956"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"	
+              >
+                <path d="M122.88,14.978c0,8.271-6.708,14.979-14.979,14.979s-14.976-6.708-14.976-14.979 C92.926,6.708,99.631,0,107.901,0S122.88,6.708,122.88,14.978L122.88,14.978z M29.954,14.978c0,8.271-6.708,14.979-14.979,14.979 S0,23.248,0,14.978C0,6.708,6.705,0,14.976,0S29.954,6.708,29.954,14.978L29.954,14.978z M76.417,14.978 c0,8.271-6.708,14.979-14.979,14.979c-8.27,0-14.978-6.708-14.978-14.979C46.46,6.708,53.168,0,61.438,0 C69.709,0,76.417,6.708,76.417,14.978L76.417,14.978z"/>
+              </svg>
+            </div>
+            <p class="task__memo">one of my goals in 2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
